@@ -19,7 +19,6 @@
 		D42FB0CB19B70842002006CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42FB0B319B70842002006CF /* UIKit.framework */; };
 		D42FB0D319B70842002006CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D42FB0D119B70842002006CF /* InfoPlist.strings */; };
 		D42FB0D519B70842002006CF /* ChangePictureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D42FB0D419B70842002006CF /* ChangePictureTests.m */; };
-		D42FB0E319B70A28002006CF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D42FB0E219B70A28002006CF /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +48,6 @@
 		D42FB0D019B70842002006CF /* ChangePictureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChangePictureTests-Info.plist"; sourceTree = "<group>"; };
 		D42FB0D219B70842002006CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D42FB0D419B70842002006CF /* ChangePictureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangePictureTests.m; sourceTree = "<group>"; };
-		D42FB0E119B70A28002006CF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		D42FB0E219B70A28002006CF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +109,6 @@
 			children = (
 				D42FB0BE19B70842002006CF /* AppDelegate.h */,
 				D42FB0BF19B70842002006CF /* AppDelegate.m */,
-				D42FB0E119B70A28002006CF /* MainViewController.h */,
-				D42FB0E219B70A28002006CF /* MainViewController.m */,
 				D42FB0C119B70842002006CF /* Images.xcassets */,
 				D42FB0B619B70842002006CF /* Supporting Files */,
 			);
@@ -245,7 +240,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D42FB0C019B70842002006CF /* AppDelegate.m in Sources */,
-				D42FB0E319B70A28002006CF /* MainViewController.m in Sources */,
 				D42FB0BC19B70842002006CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
