@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "WNRootViewController.h"
 
 @implementation AppDelegate
 
@@ -16,6 +16,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    WNRootViewController * wvc = [[WNRootViewController alloc] init];
+    self.window.rootViewController = wvc;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

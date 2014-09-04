@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D415B5A419B842D600A10314 /* WNRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D415B5A319B842D600A10314 /* WNRootViewController.m */; };
 		D42FB0B019B70842002006CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42FB0AF19B70842002006CF /* Foundation.framework */; };
 		D42FB0B219B70842002006CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42FB0B119B70842002006CF /* CoreGraphics.framework */; };
 		D42FB0B419B70842002006CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42FB0B319B70842002006CF /* UIKit.framework */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D415B5A219B842D600A10314 /* WNRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNRootViewController.h; sourceTree = "<group>"; };
+		D415B5A319B842D600A10314 /* WNRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNRootViewController.m; sourceTree = "<group>"; };
 		D42FB0AC19B70842002006CF /* ChangePicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangePicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42FB0AF19B70842002006CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D42FB0B119B70842002006CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,6 +77,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D415B5A119B842C400A10314 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D415B5A219B842D600A10314 /* WNRootViewController.h */,
+				D415B5A319B842D600A10314 /* WNRootViewController.m */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
 		D42FB0A319B70842002006CF = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 		D42FB0B519B70842002006CF /* ChangePicture */ = {
 			isa = PBXGroup;
 			children = (
+				D415B5A119B842C400A10314 /* viewControllers */,
 				D42FB0BE19B70842002006CF /* AppDelegate.h */,
 				D42FB0BF19B70842002006CF /* AppDelegate.m */,
 				D42FB0C119B70842002006CF /* Images.xcassets */,
@@ -240,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D42FB0C019B70842002006CF /* AppDelegate.m in Sources */,
+				D415B5A419B842D600A10314 /* WNRootViewController.m in Sources */,
 				D42FB0BC19B70842002006CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
